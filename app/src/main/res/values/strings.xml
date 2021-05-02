@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mi Lupa Inteligente</string>
+    <string name="title_ayuda">Ayuda</string>
+    <string name="title_camara">Camara</string>
+    <string name="title_galeria">Galeria</string>
+    <string name="title_historial">Historial</string>
+    <string name="title_activity_plantilla">MainActivity</string>
+    <string name="descripcion_ayuda">AYUDA: Muestra en pantalla una lista de los iconos de la aplicación, asi como una breve descripción de la tarea que realizan</string>
+    <string name="descripcion_camara">CÁMARA: Coloca el texto a escanear y captura una instantanea con el botón de la cámara, espera unos segundos</string>
+    <string name="descripcion_galeria">GALERIA: Selecciona una imagen de tu galeria que desees escanear, espera unos segundos</string>
+    <string name="descripcion_historial">HISTORIAL: En caso de necesitar leer o escuchar un texto previamente escaneado aqui puedes consultarlo en una lista, para acceder a ello solo presiona sobre el texto </string>
+    <string name="descripcion_nocturno">MODO NOCTURNO: Cambia el fondo y texto de la aplicación para adaptarse a los diferentes tipos de visibilidad</string>
+    <string name="descripcion_play">REPRODUCIR: Reproduce en voz alta el texto escaneado, se recomienda subir el volumen al máximo del dispositivo</string>
+    <string name="descripcion_copiar">COPIAR: Selecciona el texto y lo copia, dejando pulsado en el area de escribir texto en cualquier otra aplicacion aparece la opcion pegar, para asi compartir el texto</string>
+    <string name="instruccion_camara">Tomar Fotografía para escanear texto</string>
+    <string name="instruccion_galeria">Seleccionar una imagen de  Galería</string>
+    <string name="play">Reproducir Texto en Voz</string>
+    <string name="copiar">Copiar Texto</string>
+    <string name="title_activity_response">Resultado</string>
+    <string name="btn">Guardar en Historial</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

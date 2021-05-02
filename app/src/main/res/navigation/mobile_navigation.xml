@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_ayuda">
+
+    <fragment
+        android:id="@+id/navigation_ayuda"
+        android:name="com.emgs.milupainteligente.ui.ayuda.AyudaFragment"
+        android:label="@string/title_ayuda"
+        tools:layout="@layout/fragment_ayuda" >
+        <action
+            android:id="@+id/action_navigation_ayuda_to_navigation_camara"
+            app:destination="@id/navigation_camara" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_camara"
+        android:name="com.emgs.milupainteligente.ui.camara.CamaraFragment"
+        android:label="@string/title_camara"
+        tools:layout="@layout/fragment_camara" >
+        <action
+            android:id="@+id/action_navigation_camara_to_navigation_galeria"
+            app:destination="@id/navigation_galeria" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_galeria"
+        android:name="com.emgs.milupainteligente.ui.galeria.GaleriaFragment"
+        android:label="@string/title_galeria"
+        tools:layout="@layout/fragment_galeria" >
+        <action
+            android:id="@+id/action_navigation_galeria_to_navigation_historial"
+            app:destination="@id/navigation_historial" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_historial"
+        android:name="com.emgs.milupainteligente.ui.historial.HistorialFragment"
+        android:label="@string/title_historial"
+        tools:layout="@layout/fragment_historial" />
+</navigation>
